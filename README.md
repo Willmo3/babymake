@@ -29,7 +29,7 @@ CFLAGS = -Wall
 TARGET = hello  
 
 \$(TARGET):  
-\$(CC) \$(CFLAGS) -o \$(TARGET) \$(TARGET)\$(EXT)  
+    \$(CC) \$(CFLAGS) -o \$(TARGET) \$(TARGET)\$(EXT)  
   
 clean:  
-\$(RM) \$(TARGET)
+    \$(RM) \$(TARGET)
