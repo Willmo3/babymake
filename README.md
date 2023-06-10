@@ -2,12 +2,9 @@
 Baby's first make file!
 
 ## Explanation:  
-I made this script when I was learning C++ because I was tired of having  
-to write a makefile for every toy program I made.  
+I made this script when I was learning C++ because I was tired of having to write a makefile for every toy program I made.  
 
-Babymake creates a small makefile which compiles a single file in either  
-C or C++ to an output binary with the same name as the input file, minu  
-s the extension. 
+Babymake creates a small makefile which compiles a single file in either C or C++ to an output binary with the same name as the input file, minus the extension. 
 
 Note: I've chosen not to allow specifying the output name as different from the input for simplicity and ease of use. 
   
