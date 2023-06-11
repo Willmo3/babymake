@@ -50,7 +50,7 @@ def main():
         message += f'EXT = {ext}\n'
         message += 'CFLAGS = -Wall\n\n'
         message += f'TARGET = {target}\n\n'
-        message += '$(TARGET):\n'
+        message += '$(TARGET):$(TARGET)$(EXT)\n'
         message += '\t$(CC) $(CFLAGS) -o $(TARGET) $(TARGET)$(EXT)\n\n'
         message += 'clean:\n'
         message += '\t$(RM) $(TARGET)\n'
