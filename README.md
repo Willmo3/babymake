@@ -22,7 +22,7 @@ For simplicity, consider installing the [build-essential](https://packages.debia
  - Arch: `pacman -Sy base-devel`
   
 ## Usage:  
-`./bm [filename]` after marking as executable.
+`bm [filename]` after marking as executable.
   
 Where filename is a source file ending with .c or .cpp.  
   
