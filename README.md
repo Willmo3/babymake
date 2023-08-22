@@ -22,15 +22,15 @@ For simplicity, consider installing the [build-essential](https://packages.debia
  - Arch: `pacman -Sy base-devel`
   
 ## Usage:  
-`python bm.py [language] [name]` 
-OR `./bm.py [language] [name]` if marked as executable.
+`python bm.py [filename]` 
+OR `./bm.py [filename]` if marked as executable.
   
-Where language is "c" or "cpp" and name is the name of the output binary, AND ALSO the name of the source file minus the extension.  
+Where filename is a source file ending with .c or .cpp.  
   
 ### Examples:  
-`./bm.py c hello` : build a makefile for compiling hello.c into output binary hello.  
+`./bm.py hello.c` : build a makefile for compiling hello.c into output binary hello.  
   
-`./bm.py cpp test` : build a makefile for compiling test.cpp into output binary test.  
+`./bm.py test.cpp` : build a makefile for compiling test.cpp into output binary test.  
   
 ## Example Makefile:  
   
