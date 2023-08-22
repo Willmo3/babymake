@@ -12,7 +12,7 @@ EXIT_FAILURE = 1
 
 def main():
     if len(argv) != ARG_LEN:
-        print("Usage: python bm.py [filename]")
+        print("Usage: ./bm.py [filename]")
         return EXIT_FAILURE
 
     comp = None           # Compiler to use.
