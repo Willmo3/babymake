@@ -36,7 +36,7 @@ Where filename is a source file ending with .c or .cpp.
   
 CC = gcc  
 EXT = .c  
-CFLAGS = -Wall  
+CFLAGS = -g -Wall  
   
 TARGET = hello  
   
