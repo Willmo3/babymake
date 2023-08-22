@@ -45,7 +45,7 @@ def main():
     with open(path, "w") as makefile:
         message = f'CC = {comp}\n'
         message += f'EXT = {ext}\n'
-        message += 'CFLAGS = -Wall\n\n'
+        message += 'CFLAGS = -g -Wall\n\n'
         message += f'TARGET = {target}\n\n'
         message += '$(TARGET):$(TARGET)$(EXT)\n'
         message += '\t$(CC) $(CFLAGS) -o $(TARGET) $(TARGET)$(EXT)\n\n'
